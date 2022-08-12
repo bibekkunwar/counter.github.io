@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    padding-top: 10%;
+    place-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+#value{
+    font-size: 4rem;
+    display: block;
+    margin: 3rem 0 3rem 0;
+}
+
+
+.btn{
+    font-size: 2rem;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: burlywood;
+    transition: all 0.3s ease-in-out;
+}
